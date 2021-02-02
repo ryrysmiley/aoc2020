@@ -23,6 +23,8 @@ def adapt(file):
     print(onev*threev)
 adapt("day10.txt")
 
+#part two credited to u/thecircleisround on the advent of code reddit
+
 adapters = [x for x in set(map(int, open("day10.txt")))]
 maxvolt = max(adapters)+3
 adapters.append(maxvolt)

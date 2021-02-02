@@ -1,3 +1,5 @@
+#solution and math found on advent of code reddit u/KingCravenGamer
+
 with open("day5.txt","r") as x:
     codes = x.read().split()
 
